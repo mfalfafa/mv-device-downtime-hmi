@@ -1,0 +1,82 @@
+body {
+	background-color: #f1f1f1;
+}
+#app {
+	padding: 15px;
+}
+ul.custom li {
+	border-bottom: 1px dashed #ccc;
+	font-size: 14px;
+}
+table.custom {
+	background-color: #fff;
+	box-shadow: 0px 5px 14px #ccc;
+	max-height: 200px;
+}
+table.custom thead {}
+table.custom thead tr {}
+table.custom thead tr th {
+	background-color: #4161d8;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+}
+table.custom thead tr th:first-child {
+	border-radius: 10px 0 0 0;
+}
+table.custom thead tr th:last-child {
+	border-radius: 0 10px 0 0;
+}
+table.custom tbody {}
+table.custom tbody tr {}
+table.custom tbody tr td {}
+table.custom tbody tr td.left-border {
+	border-left: 1px solid #4161d8;
+}
+.fix-height {
+	height: 280px;
+    overflow-y: scroll;
+}
+.active-machine {
+	color: #fff;
+	background-color: #007bff;
+}
+.brand-logo {
+    height: 80px;
+    width: 80px;
+    background-image: url('mv-logo.png');
+    background-position: center center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+.form-signin {
+	background-color: #4161d8;
+	color: #fff;
+}
+.form-signin .form-group {
+	padding: 0 30px;
+}
+.form-signin .form-group label {
+	font-size: 12px;
+}
+.form-signin h1 {
+	padding-top: 15px;
+}
+.form-signin input {
+	border-radius: 0px;
+}
+.form-signin button {
+	border-radius: 0px;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.form-configuration {
+	background-color: #fff;
+	padding: 10px;
+}
+.form-configuration input,
+.form-configuration button {
+	border-radius: 0;
+}
